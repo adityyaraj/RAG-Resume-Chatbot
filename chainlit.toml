@@ -1,0 +1,25 @@
+[project]
+# Chainlit deployment configuration
+name = "ResumeRAG"
+author = "AI Developer"
+description = "AI-powered resume analysis with RAG technology"
+
+[features]
+# Disable features that use memory
+unsafe_allow_html = false
+latex = false
+
+[UI]
+# Optimize UI for deployment
+name = "ResumeRAG - AI Resume Analyzer"
+default_collapse_content = true
+default_expand_messages = false
+hide_cot = true
+
+[meta]
+generated_by = "1.0.0"
+
+[deployment]
+# Memory optimization settings
+max_http_buffer_size = 100000000  # 100MB limit
+max_message_size = 50000000       # 50MB limit

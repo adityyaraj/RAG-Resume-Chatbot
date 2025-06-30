@@ -1,0 +1,23 @@
+# Deployment Requirements - Lightweight Version
+# Core Chainlit and LLM packages
+chainlit>=1.0.0
+langchain-google-genai>=1.0.0
+python-dotenv>=1.0.0
+
+# Lightweight RAG packages
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-huggingface>=0.0.1
+
+# Lightweight alternatives
+sentence-transformers>=2.2.0  # Will use smaller models
+faiss-cpu>=1.7.0
+
+# Document processing (essential only)
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+
+# Optional OCR packages (only if memory allows)
+# PyMuPDF
+# Pillow
+# pytesseract
