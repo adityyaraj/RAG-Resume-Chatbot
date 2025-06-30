@@ -1,0 +1,23 @@
+# Core Chainlit and LLM packages
+chainlit>=1.0.0
+langchain-google-genai
+python-dotenv
+
+# RAG and Vector Search packages
+langchain>=0.1.0
+langchain-community
+langchain-huggingface
+faiss-cpu
+sentence-transformers
+
+# Document processing packages
+PyPDF2
+python-docx
+
+# OCR packages (optional)
+PyMuPDF
+Pillow
+pytesseract
+
+# Other dependencies
+pathlib
